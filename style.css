@@ -405,3 +405,44 @@ a {
     height: 148px;
     background: #F8F3F4;
 }
+
+.breadcrumb-section {
+    height: 148px;
+    background-color: #F8F3F4;
+}
+
+.breadcrumb-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 59px;
+}
+
+.breadcrumb-content-left-h2 {
+    font-family: Lato, serif;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.breadcrumb li + li:before {
+    color: black;
+    content: "/\00a0";
+}
+
+.breadcrumb-item {
+    display: inline;
+    font-family: Lato, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #636363;
+}
+
+.breadcrumb-a:hover {
+    color: #F16D7F;
+    font-weight: bold;
+}
