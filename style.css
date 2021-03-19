@@ -411,6 +411,8 @@ a {
     background-color: #F8F3F4;
 }
 
+/*КАТАЛОГ*/
+
 .breadcrumb-content {
     display: flex;
     justify-content: space-between;
@@ -445,4 +447,18 @@ a {
 .breadcrumb-a:hover {
     color: #F16D7F;
     font-weight: bold;
+}
+
+.cards_catalog {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 560px;
+    background: #F8F8F8;
+    position: relative;
+}
+
+.cards_catalog:not(:last-child) {
+    margin-right: 30px;
+    margin-bottom: 30px;
 }
